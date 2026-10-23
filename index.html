@@ -25,16 +25,18 @@
 
         article {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 16px;
-            margin-bottom: 20px;
-            text-align: left;
+            margin-bottom: 24px;
+            padding: 16px;
+            border-bottom: 1px solid #ccc;
         }
 
         img {
             width: 80px;
             height: 80px;
             object-fit: cover;
+            margin: 12px 0;
         }
 
         .artigo-autor {
@@ -50,22 +52,30 @@
 
     <main>
         <article>
-            <img src="imagem-blog.png" alt="Banner do jornal estudantil A Tocha do Colégio Smallville">
             <div>
                 <h2>Uma escola tirada do Mural do Esquisito</h2>
                 <p>Bem-vindo! Aqui você encontrará notícias e ficará por dentro de tudo que acontece na nossa escola.</p>  
                 <p class="artigo-autor">Por: Beatriz</p>  
+            </div>
+            
+            <img src="imagem-blog.png" alt="Banner do jornal estudantil A Tocha do Colégio Smallville">
+            
+            <div>
                 <button>🎃 <span>0</span></button>
                 <button>🎅 <span>0</span></button>
             </div>
         </article>
 
         <article>
-            <img src="imagem-blog2.jpeg" alt="Banner do jornal estudantil A Tocha do Colégio Smallville">
             <div>
                 <h2>Clark Kent é o novo quarterback</h2>
                 <p>Com habilidades excepcionais, Kent foi escolhido como titular para o time dos Crows.</p> 
                 <p class="artigo-autor">Por: Beatriz</p>  
+            </div>
+
+            <img src="imagem-blog2.jpeg" alt="Banner do jornal estudantil A Tocha do Colégio Smallville">
+
+            <div>
                 <button>🎃 <span>0</span></button>
                 <button>🎅 <span>0</span></button>
             </div>
